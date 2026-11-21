@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:3001",
+  origin: "https://script.google.com/macros/s/AKfycbxbT71vnzfRqzPU4WiDHPgXFfWgScuA1anLE0ubYBRP86M0n7ddUPwXm_onUeUIrJcagA/exec",
   methods: ["GET", "POST"],
 }));
 const PORT = process.env.PORT || 3000;
